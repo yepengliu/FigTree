@@ -1,0 +1,50 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache
+.cache/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (downloaded, not project code)
+modelscope_cache/
+modelscope_rmbg_min/
+modelscope_sam3_min/
+wheelhouse_sam3/
+sam3_assets/
+
+# Archives
+*.zip
+
+# Claude
+.claude/
+
+# FIGTREE generated outputs
+runs/
+outputs/
+*.log
+*.pdf
+
+# Third-party experiments and datasets
+benchmarks/
+third_party/
+experiments/
+archive/
+
+# Training data
+_clipped_training_examples/
+
+# Temporary
+ziqh1Hmo/
