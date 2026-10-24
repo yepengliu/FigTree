@@ -1,12 +1,15 @@
-# FIGTREE
+# Figures as Programs: Recursive Generation of Editable Scientific Figures
+
+Official implementation of an editable scientific figure generation method presented in the paper:
+
+["Figures as Programs: Recursive Generation of Editable Scientific Figures"](https://arxiv.org/pdf/2609.01006) 
+
+
+## Introduction
 
 FIGTREE generates editable scientific methodology figures as SVG programs.
 
-The core idea is to treat figure generation as long-horizon SVG program
-construction and make it tractable through a recursive layout tree. Instead of
-asking one model call to write an entire complex diagram, FIGTREE decomposes the
-figure into localized sub-figures, generates short SVG fragments, verifies them
-through rendering, and assembles them level by level.
+The core idea is to treat figure generation as a long-horizon SVG program construction and make it tractable through a recursive layout tree. Instead of asking one model call to write an entire complex diagram, FIGTREE decomposes the figure into localized sub-figures, generates short SVG fragments, verifies them through rendering, and assembles them level by level.
 
 ## Method Overview
 
@@ -152,3 +155,16 @@ rendered PNG previews, critic reports, and the final assembled SVG.
 
 Generated outputs are intentionally ignored by Git and should not be committed
 to the public repository.
+
+
+
+## Citation
+
+```bibtex
+@article{liu2026figures,
+  title={Figures as Programs: Recursive Generation of Editable Scientific Figures},
+  author={Liu, Yepeng and Dai, Dasen and Liu, Chengzhi and Song, Yiren and Ci, Hai and Zhang, Yu and Zhang, Qi and Shou, Mike Zheng and Wang, Xin Eric and Bu, Yuheng},
+  journal={arXiv preprint arXiv:2609.01006},
+  year={2026}
+}
+```
